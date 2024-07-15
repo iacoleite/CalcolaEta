@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CalcolaEta/1.0.0": {
+        "runtime": {
+          "CalcolaEta.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalcolaEta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\bin\Debug\net8.0\CalcolaEta.exe
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\bin\Debug\net8.0\CalcolaEta.deps.json
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\bin\Debug\net8.0\CalcolaEta.runtimeconfig.json
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\bin\Debug\net8.0\CalcolaEta.dll
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\bin\Debug\net8.0\CalcolaEta.pdb
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.AssemblyInfoInputs.cache
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.AssemblyInfo.cs
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.csproj.CoreCompileInputs.cache
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.dll
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\refint\CalcolaEta.dll
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.pdb
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.genruntimeconfig.cache
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\ref\CalcolaEta.dll
