@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asusc\\Desktop\\corso_c#\\CalcolaEta\\CalcolaEta.csproj": {}
+    "C:\\programa\\C_Sharp\\CalcolaEta\\CalcolaEta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asusc\\Desktop\\corso_c#\\CalcolaEta\\CalcolaEta.csproj": {
+    "C:\\programa\\C_Sharp\\CalcolaEta\\CalcolaEta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asusc\\Desktop\\corso_c#\\CalcolaEta\\CalcolaEta.csproj",
+        "projectUniqueName": "C:\\programa\\C_Sharp\\CalcolaEta\\CalcolaEta.csproj",
         "projectName": "CalcolaEta",
-        "projectPath": "C:\\Users\\asusc\\Desktop\\corso_c#\\CalcolaEta\\CalcolaEta.csproj",
-        "packagesPath": "C:\\Users\\asusc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asusc\\Desktop\\corso_c#\\CalcolaEta\\obj\\",
+        "projectPath": "C:\\programa\\C_Sharp\\CalcolaEta\\CalcolaEta.csproj",
+        "packagesPath": "C:\\Users\\caioc\\.nuget\\packages\\",
+        "outputPath": "C:\\programa\\C_Sharp\\CalcolaEta\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\asusc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\caioc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
