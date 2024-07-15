@@ -1,9 +1,11 @@
-﻿namespace CalcolaEta;
+﻿using System.Dynamic;
 
-class Program
-{
-    static void Main(string[] args)
-    {
+namespace CalcolaEta;
+
+class Program {
+    
+
+    static void Main(string[] args) {
         try {
             string? nome = args[0];
             int annoCheFu = int.Parse(args[1]);
@@ -11,19 +13,45 @@ class Program
             // int annoCorrente = int.Parse(args[3]);
             int annoCorrente = DateTime.Now.Year;
             
-            int annoDiNascita = annoCheFu - etaDaPiccolo;
+            // int annoDiNascita = annoCheFu - etaDaPiccolo;
 
-            int eta = annoCorrente - annoDiNascita;
+            // int eta = annoCorrente - annoDiNascita;
+            int eta = GetEta(annoCheFu, etaDaPiccolo, annoCorrente);
             Console.WriteLine("\n");
             Console.WriteLine($"Ciao, {nome}! L'anno attuale è {annoCorrente} e la tua età oggi è:");
             Console.WriteLine(eta);
 
         } catch (Exception e) {
+
             // Console.WriteLine("Deve mettere i argumenti: nome, anno che fu, eta da piccolo, anno corrente");
             Console.WriteLine("Deve mettere i argumenti: nome, anno che fu, eta da piccolo");
             Console.WriteLine("\n");
-            Console.WriteLine(e);
+            // Console.WriteLine(e);
+            // Console.WriteLine("\n");
+            int annoCorrente = DateTime.Now.Year;
+
+            Console.WriteLine("Va bene! Facciamo adesso!... Il suo nome è... ?");
+            string? nome = Console.ReadLine();
+            
+            Console.WriteLine("Quando ha cominciato?");
+            string? annoCheFuString = Console.ReadLine();
+            int annoCheFu = int.Parse(annoCheFuString);
+
+            Console.WriteLine("E aveva quanti anni quando ha cominciato?");
+            string? etaDaPiccoloString = Console.ReadLine();
+            int etaDaPiccolo = int.Parse(etaDaPiccoloString);
+
+            int eta = GetEta(annoCheFu, etaDaPiccolo, annoCorrente);
             Console.WriteLine("\n");
+            Console.WriteLine($"Ciao, {nome}! L'anno attuale è {annoCorrente} e la tua età oggi è:");
+            Console.WriteLine(eta);
         }
+    }
+
+    public static int GetEta(int quandoEra, int quantoAveva, int annoOggi) {
+        // int annoOggi = DateTime.Now.Year;
+        int annoNascimento = quandoEra - quantoAveva;
+        int etaCalcolata = annoOggi - annoNascimento;
+        return etaCalcolata;
     }
 }
