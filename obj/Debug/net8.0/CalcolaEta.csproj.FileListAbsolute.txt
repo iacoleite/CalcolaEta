@@ -12,3 +12,4 @@ C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\refint\CalcolaEta.dl
 C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.pdb
 C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.genruntimeconfig.cache
 C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\ref\CalcolaEta.dll
+C:\Users\asusc\Desktop\corso_c#\CalcolaEta\obj\Debug\net8.0\CalcolaEta.sourcelink.json

@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         try {
-            string? nome = args[0];
+            string nome = args[0];
             int annoCheFu = int.Parse(args[1]);
             int etaDaPiccolo = int.Parse(args[2]);
             // int annoCorrente = int.Parse(args[3]);
