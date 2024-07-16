@@ -60,7 +60,6 @@ namespace CalcolaEta;
 
     public string? GetNome() {
         return nome;
-
     }
 
     public string? GetAnnoCheFu() {

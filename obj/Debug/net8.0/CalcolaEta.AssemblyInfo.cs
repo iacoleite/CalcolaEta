@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalcolaEta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25bd1928ca9871daea6117cb62bf82975d734dc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1449fb39a11207087cc6ad2ac149b29cc020a205")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalcolaEta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalcolaEta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
