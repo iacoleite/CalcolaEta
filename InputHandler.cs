@@ -70,7 +70,7 @@ namespace CalcolaEta;
         return etaDaPiccolo.ToString();
     }
 
-    public string? GetAnnoCorrente() {
+    public string GetAnnoCorrente() {
         return annoCorrente.ToString();
     }
 }
