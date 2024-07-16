@@ -35,7 +35,10 @@ namespace CalcolaEta;
                 
                 Console.WriteLine("Quando ha cominciato?");
                 string? annoCheFuString = Console.ReadLine();
+
+                //set a int
                 int a =0;
+                // verify if is not null or empty OR that can parse the string to int and put in the variable int "a" 
                 while (string.IsNullOrEmpty(annoCheFuString) || !int.TryParse(annoCheFuString, out a)) {
                     Console.WriteLine("Quando ha cominciato?");
                     annoCheFuString = Console.ReadLine();
@@ -45,6 +48,7 @@ namespace CalcolaEta;
 
                 Console.WriteLine("E avevi quanti anni quando ha cominciato?");
                 string? etaDaPiccoloString = Console.ReadLine();
+                // verify if is not null or empty OR that can parse the string to int and put in the variable int "a" 
                 while (string.IsNullOrEmpty(etaDaPiccoloString)|| !int.TryParse(etaDaPiccoloString, out a)) {
                     Console.WriteLine("E avevi quanti anni quando ha cominciato?");
                     etaDaPiccoloString = Console.ReadLine();

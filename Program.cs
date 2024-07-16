@@ -12,10 +12,7 @@ class Program {
         
         int eta = calculatrice.GetEta(int.Parse(annoCheFu), int.Parse(etaDaPiccolo));
         
-
         Stampante stampante = new Stampante();
         stampante.stampare(inputHandler.GetNome(), eta.ToString());
-
-
     }
 }
